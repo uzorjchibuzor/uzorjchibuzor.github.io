@@ -1,7 +1,7 @@
 html {
   min-height: 100%;
   background: #069;
-  background: url("../images/code-pic2.jpg");
+  background-image: url("../images/code-pic2.jpg");
   background-size: cover;
   background-position: fixed;
   background-repeat: no-repeat;
