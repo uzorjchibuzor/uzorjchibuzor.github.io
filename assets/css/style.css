@@ -1,56 +1,63 @@
 html {
-    min-height: 100%;
-    background: #069;
-    background: url('../images/code-pic2.jpg');
-    background-size: cover;
-    background-position: fixed;
-    background-repeat: no-repeat;
+  min-height: 100%;
+  background: #069;
+  background: url("../images/code-pic2.jpg");
+  background-size: cover;
+  background-position: fixed;
+  background-repeat: no-repeat;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .nav ul {
-    list-style-type: none;
-    
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #dddddd;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #dddddd;
+  border-radius: .5em;
 }
 
-
-.nav li {      
-    float: left;
-
+.nav li {
+  float: left;
+  border: 1px ;
+  border-radius: .5em;
 }
 
 .nav li a {
-    display: block;
-    text-transform: uppercase;
-    padding: 20px;
-    font-weight: bold;
-    color: black;
+  display: block;
+  text-transform: uppercase;
+  padding: 20px;
+  font-weight: bold;
+  color: black;
 }
 
 .nav li a:hover {
-    background-color: rebeccapurple;
-    color: white;
+  background-color: rebeccapurple;
+  border-radius: .5em;
+  color: white;
+}
+
+.main-page {
+  padding-top: 15px;
+  width: 85%;
+  margin: 2% 7.5%;
+  text-align: center;
 }
 
 
-
-.main-page {
-    clear: both;
-    padding-top: 30px;
+#about {
+    padding-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
-
-
-.main-page {
-    width: 80%;
-    margin: 5% 10%;
-  
+a img {
+  float: left;
+  width: 30%;
+  margin: 3px;
+  border-radius: .3em;
 }
 
